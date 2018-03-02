@@ -1,0 +1,97 @@
+*{
+    margin:0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    padding-bottom: 500px;
+    width: 100%;
+          
+    
+
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.clearfix{
+    clear:both;
+}
+/* Section */
+section > div{
+    height: 100%;
+    float: left;
+}
+
+section .left{
+    background-image: url("../images/codepen.jpg");
+    background-repeat: no-repeat;
+      
+       float: left;
+   
+   
+padding:400px 100px 50px 50px;
+}
+section .left h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+    color: darkgray;
+}
+section .left h1{
+    font-size: 43px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+  color: cornsilk;
+  padding: 2px 0 18px 0;
+    
+}
+section .left h4{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+font-size: 18px;    
+text-decoration: overline;
+color: cornsilk;
+}
+section .right{
+
+padding: 70px;
+
+
+}
+section .right h3{
+font-family: 'Times New Roman', Times, serif;
+font-size: 50px;
+padding: 30px 50px 30px 250px;
+
+}
+section .right p{
+    
+   font-family: 'Times New Roman', Times, serif;
+   line-height: 50px;
+   font-size: 25px;
+}
+section .right p1{
+    font-size: 25px;
+   line-height: 70px;
+}
+  
+    /* End of Section */
+    form input{
+        display: block;
+        width: 60%;
+        height: 45px;                      
+        border: 1px solid purple;
+        color: white;
+        outline: none;
+        padding-left: 20px;
+        margin-bottom: 5px;
+    }
+    button{
+        color: white;
+        background-color: purple;
+        margin: 0px  300px;
+        border: 1px solid purple;
+        padding: 10px 40px;
+        
+    }
