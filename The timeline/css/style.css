@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    height: 300px;
+
+}
+body{
+    background-image: url("../images/airplane.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 250px 50px 100px;
+    
+        
+}
+p{
+padding: 10px 10px 10px 0;
+    width: 350px;
+    height: 120px;
+    text-align: justify;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    padding: 10px 0 5px 0;
+}
+
+
